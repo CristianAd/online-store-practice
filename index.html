@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Shopping easy</title>
+</head>
+<body>
+    
+    <div class="contenedorGeneral">
+        <header>
+            <div class="cabecera-primaria">
+                <img id="logo" src="imgs/shop-easy.png" alt="60px" width="60px">
+                <div class="buscador">
+                    <input type="search" name="" id="keyWords" placeholder="Buscar" >
+                    <div class="lupa">
+                        <a  onclick="buscar()"><img src="/imgs/lupa.png" ></a>
+                    </div>
+                 </div>
+
+
+                    <div onmouseover="mostrarPopup()" onmouseout="ocultarPopup()">
+                    <p>Tú cuenta y listas</p>
+                    <div class="popup" id="miPopup">
+
+                        <nav>
+                            <ul>
+                              <li><button>Crear cuenta</button></li>
+                              <li>Opcion 1</li>
+                              <li>Opcion 2</li>
+                              <li>Opcion 3</li>
+                              
+                            </ul>
+                        </nav>
+                      </div>
+
+                    </div>
+
+            
+            <div class="zona-cliente">
+                <button>Pedidos</button>
+                <button>Carrito</button>
+            </div>
+        </header>
+        <div class="navSuperior">
+            <nav>
+                <ul>
+                    <li>Servicio al cliente</li>
+                    <li>Contacto</li>
+                    <li>Ofertas del día</li>
+                </ul>   
+            </nav>
+        </div>
+
+        <section id="resultados">
+            <div class="slider">
+                
+                <img src="preoduct/zapatos.jpg" alt="zapatos" height="450px" width="400px">
+                <img src="preoduct/pantalon.jpg" alt="pantalon" height="450px" width="400px">
+                <img src="preoduct/gorras.jpg" alt="gorras" height="450px" width="400px">
+
+            </div>
+            
+            <button onclick="anterior()">Anterior</button>
+            <button onclick="siguiente()">Siguiente</button>
+            <div class="zonaP">
+                <div class="produt-box">
+                        <div class="bienes">
+                            <div class="product-image">
+                                <a href="#"><img  id="imgProducto" src="preoduct/camisa.jpg" ></a>
+                            </div>
+                            <div class="product-title"><h2>Camisa</h2></div>
+                            <div class="description">Camisa manga larga</div>
+                            <div class="price">$10.99</div>
+                        </div>
+
+                        <div class="bienes">
+                            <div class="product-image">
+                                <a href=""><img id="imgProducto"  src="preoduct/pantalon.jpg" ></a>
+                            </div>
+                            <div class="product-title"><h2>Pantalón</h2></div>
+                            <div class="description">Pantalón clasico para hombre</div>
+                            <div class="price">$15.99</div>
+                        </div>
+
+                        <div class="bienes">
+                            <div class="product-image">
+                                <a href=""><img  id="imgProducto" src="preoduct/chaqueta.jpg" ></a>
+                            </div>
+                            <div class="product-title"><h2>Chaqueta</h2></div>
+                            <div class="description">Chaqueta elegante sin botones</div>
+                            <div class="price">$30.99</div>
+                        </div>
+
+                        <div class="bienes">
+                            <div class="product-image">
+                                <a href=""><img  id="imgProducto" src="preoduct/gafas.jpg" ></a>
+                            </div>
+                            <div class="product-title"><h2>Gafas</h2></div>
+                            <div class="description">Gafa ultra deportivo para sol </div>
+                            <div class="price">$40.99</div>
+                        </div>
+                        <div class="bienes">
+                            <div class="product-image">
+                                <a href=""><img  id="imgProducto" src="preoduct/gorras.jpg" ></a>
+                            </div>
+                            <div class="product-title"><h2>Gorra deportiva</h2></div>
+                            <div class="description">Gorra para el aire libre</div>
+                            <div class="price">$40.99</div>
+                        </div>
+                        <div class="bienes">
+                            <div class="product-image">
+                                <a href=""><img  id="imgProducto" src="preoduct/gafas.jpg" ></a>
+                            </div>
+                            <div class="product-title"><h2>Lentes</h2></div>
+                            <div class="description">Gafa para playa</div>
+                            <div class="price">$40.99</div>
+                        </div>
+                
+                
+                
+                
+                
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <input type="button" value="Comunidad">
+            <nav >
+                <ul class="navInferior">
+                    <li>Contactos</li>
+                    <li>Career</li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+<script src="code.js"></script>
+</body>
+</html>

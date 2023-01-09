@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Shopping easy</title>
+</head>
+<body>
+    
+    <div class="contenedorGeneral">
+        <header>
+            <div class="cabecera-primaria">
+                <img id="logo" src="imgs/shop-easy.png" alt="60px" width="60px">
+                <div class="buscador">
+                    <input type="search" name="" id="" placeholder="Buscar">
+                    <div class="lupa">
+                        <img src="/imgs/lupa.png" >
+                    </div>
+                 </div>
+
+
+                    <div onmouseover="mostrarPopup()" onmouseout="ocultarPopup()">
+                    <p>Tú cuenta y listas</p>
+                    <div class="popup" id="miPopup">
+
+                        <nav>
+                            <ul>
+                              <li><button>Crear cuenta</button></li>
+                              <li>Opcion 1</li>
+                              <li>Opcion 2</li>
+                              <li>Opcion 3</li>
+                              
+                            </ul>
+                        </nav>
+                      </div>
+
+                    </div>
+
+            
+            <div class="zona-cliente">
+                <button>Pedidos</button>
+                <button>Carrito</button>
+            </div>
+        </header>
+        <div class="navSuperior">
+            <nav>
+                <ul>
+                    <li>Servicio al cliente</li>
+                    <li>Contacto</li>
+                    <li>Ofertas del día</li>
+                </ul>   
+            </nav>
+        </div>
+
+        <section>
+          <div class="zona-resultados" id="resultados">
+
+          </div>
+        </section>
+
+        <footer>
+            <input type="button" value="Comunidad">
+            <nav >
+                <ul class="navInferior">
+                    <li>Contactos</li>
+                    <li>Career</li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+<script src="code.js"></script>
+</body>
+</html>

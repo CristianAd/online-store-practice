@@ -1,0 +1,126 @@
+.contenedorGeneral{
+    width: 95vw;
+    height: 95vh;
+    background-color: grey;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#logo{
+    border-radius: 4rem;
+}
+
+.cabecera-primaria{
+    background-color: rgb(17, 82, 82);
+    display: flex;
+    justify-content:space-between;
+}
+
+.navSuperior{
+    background-color: gold;
+}
+
+section{
+    background-color:  rgb(17, 82, 82);
+
+}
+
+.zonaP{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gold;
+
+}
+footer{
+    background-color: rgb(186, 179, 179);
+    display: flex;
+    margin-top: 2rem;
+}
+.navInferior{
+    list-style-type: none;
+}
+
+.produt-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     
+     
+}
+
+.bienes{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    
+}
+
+#imgProducto{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.navSuperior nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+.buscador{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#resultados{
+    color: wheat;
+}
+.buscador input{
+    outline: none;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.lupa{
+    position: absolute;
+    top: 1;
+    right: 0;
+    background-color: orange;
+    border-radius: 100%;
+    width: 2.4rem;
+    height: 2.4rem;
+    filter: invert(1);
+}
+
+
+.popup{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(215, 226, 21);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 1rem;
+  
+}
+.popup li{
+    list-style-type: none;
+}
+
+/* Carrusel de imagenes*/
+.slider{
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+     background-color: blue;
+ }
